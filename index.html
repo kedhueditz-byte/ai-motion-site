@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Motion Control</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>AI Motion Image → Video</h2>
+
+<input type="file" id="imageInput" accept="image/*">
+<input type="file" id="videoInput" accept="video/*">
+<button onclick="startMotion()">Generate Video</button>
+
+<div class="stage">
+  <video id="motionVideo" muted></video>
+  <img id="character">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
